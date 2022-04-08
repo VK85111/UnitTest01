@@ -33,7 +33,7 @@ namespace UnitTest01
         [Fact]
         public void TriangleTest()
         {
-            Triangle triangl = new Triangle(5,8,9);
+            Triangle triangl = new Triangle(5, 8, 9);
             Assert.Equal(19.9, Math.Round(_calc.TriangleCalc(triangl as Triangle), 2));
         }
 
